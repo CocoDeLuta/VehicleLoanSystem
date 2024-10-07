@@ -4,28 +4,28 @@ namespace VehicleLoan.Model.Basic
 {
     public class VehicleModel
     {
-        public int? VehicleId { get; set; }
-        public string? ModelName { get; set; }
-        public int? Year { get; set; }
+        public int? vehicleId { get; set; }
+        public string? modelName { get; set; }
+        public int? year { get; set; }
 
 
         public VehicleModel(int id, string model, int year)
         {
-            VehicleId = id;
-            ModelName = model;
-            Year = year;
+            vehicleId = id;
+            modelName = model;
+            year = year;
         }
 
         public override string ToString()
         {
-            return $"[VehicleId: {VehicleId}, ModelName: {ModelName}, Year: {Year}]";
+            return $"[VehicleId: {vehicleId}, ModelName: {modelName}, Year: {year}]";
         }
 
         public override bool Equals(object? obj)
         {
             if (obj is VehicleModel other)
             {
-                return other.VehicleId == VehicleId;
+                return other.vehicleId == vehicleId;
             }
             return false;
         }

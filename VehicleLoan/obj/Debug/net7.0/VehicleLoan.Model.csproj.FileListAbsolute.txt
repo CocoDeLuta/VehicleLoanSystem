@@ -1,0 +1,12 @@
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan\bin\Debug\net7.0\VehicleLoan.Model.deps.json
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan\bin\Debug\net7.0\VehicleLoan.Model.dll
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan\bin\Debug\net7.0\VehicleLoan.Model.pdb
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan\obj\Debug\net7.0\VehicleLoan.Model.csproj.AssemblyReference.cache
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan\obj\Debug\net7.0\VehicleLoan.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan\obj\Debug\net7.0\VehicleLoan.Model.AssemblyInfoInputs.cache
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan\obj\Debug\net7.0\VehicleLoan.Model.AssemblyInfo.cs
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan\obj\Debug\net7.0\VehicleLoan.Model.csproj.CoreCompileInputs.cache
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan\obj\Debug\net7.0\VehicleLoan.Model.dll
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan\obj\Debug\net7.0\refint\VehicleLoan.Model.dll
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan\obj\Debug\net7.0\VehicleLoan.Model.pdb
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan\obj\Debug\net7.0\ref\VehicleLoan.Model.dll

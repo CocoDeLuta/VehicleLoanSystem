@@ -1,0 +1,15 @@
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\bin\Debug\net7.0\VehicleLoan.Program.exe
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\bin\Debug\net7.0\VehicleLoan.Program.deps.json
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\bin\Debug\net7.0\VehicleLoan.Program.runtimeconfig.json
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\bin\Debug\net7.0\VehicleLoan.Program.dll
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\bin\Debug\net7.0\VehicleLoan.Program.pdb
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\obj\Debug\net7.0\VehicleLoan.Program.csproj.AssemblyReference.cache
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\obj\Debug\net7.0\VehicleLoan.Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\obj\Debug\net7.0\VehicleLoan.Program.AssemblyInfoInputs.cache
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\obj\Debug\net7.0\VehicleLoan.Program.AssemblyInfo.cs
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\obj\Debug\net7.0\VehicleLoan.Program.csproj.CoreCompileInputs.cache
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\obj\Debug\net7.0\VehicleLoan.Program.dll
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\obj\Debug\net7.0\refint\VehicleLoan.Program.dll
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\obj\Debug\net7.0\VehicleLoan.Program.pdb
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\obj\Debug\net7.0\VehicleLoan.Program.genruntimeconfig.cache
+C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\obj\Debug\net7.0\ref\VehicleLoan.Program.dll

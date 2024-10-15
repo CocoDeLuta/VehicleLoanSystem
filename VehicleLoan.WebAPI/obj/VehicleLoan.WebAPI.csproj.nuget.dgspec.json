@@ -1,0 +1,235 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.WebAPI\\VehicleLoan.WebAPI.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.EFCore\\VehicleLoan.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.EFCore\\VehicleLoan.EFCore.csproj",
+        "projectName": "VehicleLoan.EFCore",
+        "projectPath": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.EFCore\\VehicleLoan.EFCore.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\VehicleLoan.Model.csproj": {
+                "projectPath": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\VehicleLoan.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.WebAPI\\VehicleLoan.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.WebAPI\\VehicleLoan.WebAPI.csproj",
+        "projectName": "VehicleLoan.WebAPI",
+        "projectPath": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.WebAPI\\VehicleLoan.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.EFCore\\VehicleLoan.EFCore.csproj": {
+                "projectPath": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.EFCore\\VehicleLoan.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\VehicleLoan.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\VehicleLoan.Model.csproj",
+        "projectName": "VehicleLoan.Model",
+        "projectPath": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\VehicleLoan.Model.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vLYFZn00UqBUlcF/wTM4pcxjfk2flR6y69GnVFeLzoc=",
+  "Source": "VehicleLoan.WebAPI",
+  "BasePath": "_content/VehicleLoan.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -9,3 +9,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VehicleLoan.Model
 build_property.ProjectDir = C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

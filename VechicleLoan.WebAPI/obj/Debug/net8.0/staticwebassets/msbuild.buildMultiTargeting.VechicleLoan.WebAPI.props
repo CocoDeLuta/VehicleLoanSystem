@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\VechicleLoan.WebAPI.props" />
+</Project>

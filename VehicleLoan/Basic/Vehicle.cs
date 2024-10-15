@@ -4,7 +4,7 @@ namespace VehicleLoan.Model.Basic
 {
     public class VehicleModel
     {
-        public int? VehicleId { get; set; }
+        public int VehicleId { get; set; }
         public string? ModelName { get; set; }
         public int? Year { get; set; }
 
@@ -15,6 +15,13 @@ namespace VehicleLoan.Model.Basic
             ModelName = model;
             Year = year;
         }
+
+        public VehicleModel()
+        {
+            
+        }
+
+
 
         public override string ToString()
         {

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\VehicleLoan.Model.csproj": {}
+    "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan\\VehicleLoan.Model.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\VehicleLoan.Model.csproj": {
+    "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan\\VehicleLoan.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\VehicleLoan.Model.csproj",
+        "projectUniqueName": "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan\\VehicleLoan.Model.csproj",
         "projectName": "VehicleLoan.Model",
-        "projectPath": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\VehicleLoan.Model.csproj",
-        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\obj\\",
+        "projectPath": "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan\\VehicleLoan.Model.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.2.23157.25\\RuntimeIdentifierGraph.json"
         }
       }
     }

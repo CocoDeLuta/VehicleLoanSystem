@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.Program\\VehicleLoan.UI.Console.csproj": {}
+    "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan.Program\\VehicleLoan.UI.Console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.Program\\VehicleLoan.UI.Console.csproj": {
+    "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan.Program\\VehicleLoan.UI.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.Program\\VehicleLoan.UI.Console.csproj",
+        "projectUniqueName": "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan.Program\\VehicleLoan.UI.Console.csproj",
         "projectName": "VehicleLoan.UI.Console",
-        "projectPath": "C:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.Program\\VehicleLoan.UI.Console.csproj",
-        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.Program\\obj\\",
+        "projectPath": "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan.Program\\VehicleLoan.UI.Console.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan.Program\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\VehicleLoan.Model.csproj": {
-                "projectPath": "C:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\VehicleLoan.Model.csproj"
+              "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan\\VehicleLoan.Model.csproj": {
+                "projectPath": "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan\\VehicleLoan.Model.csproj"
               }
             }
           }
@@ -38,11 +36,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -64,28 +57,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.2.23157.25\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\VehicleLoan.Model.csproj": {
+    "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan\\VehicleLoan.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\VehicleLoan.Model.csproj",
+        "projectUniqueName": "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan\\VehicleLoan.Model.csproj",
         "projectName": "VehicleLoan.Model",
-        "projectPath": "C:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\VehicleLoan.Model.csproj",
-        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan\\obj\\",
+        "projectPath": "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan\\VehicleLoan.Model.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Admin\\Desktop\\Trabalhos\\VehicleLoan\\VehicleLoan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -98,11 +89,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -124,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.2.23157.25\\RuntimeIdentifierGraph.json"
         }
       }
     }

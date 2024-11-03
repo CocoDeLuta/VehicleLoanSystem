@@ -8,6 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VehicleLoan.UI.Console
-build_property.ProjectDir = C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.Program\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.Program\

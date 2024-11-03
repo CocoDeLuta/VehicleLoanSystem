@@ -16,3 +16,20 @@ C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Si
 C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.EFCore\obj\Debug\net8.0\VehicleLoan.EFCore.pdb
 C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.EFCore\obj\Debug\net8.0\VehicleLoan.EFCore.genruntimeconfig.cache
 C:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.EFCore\obj\Debug\net8.0\ref\VehicleLoan.EFCore.dll
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\bin\Debug\net8.0\VehicleLoan.EFCore.deps.json
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\bin\Debug\net8.0\VehicleLoan.EFCore.runtimeconfig.json
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\bin\Debug\net8.0\VehicleLoan.EFCore.dll
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\bin\Debug\net8.0\VehicleLoan.EFCore.pdb
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\bin\Debug\net8.0\VehicleLoan.Model.dll
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\bin\Debug\net8.0\VehicleLoan.Model.pdb
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\obj\Debug\net8.0\VehicleLoan.EFCore.csproj.AssemblyReference.cache
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\obj\Debug\net8.0\VehicleLoan.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\obj\Debug\net8.0\VehicleLoan.EFCore.AssemblyInfoInputs.cache
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\obj\Debug\net8.0\VehicleLoan.EFCore.AssemblyInfo.cs
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\obj\Debug\net8.0\VehicleLoan.EFCore.csproj.CoreCompileInputs.cache
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\obj\Debug\net8.0\VehicleLoan.EFCore.csproj.CopyComplete
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\obj\Debug\net8.0\VehicleLoan.EFCore.dll
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\obj\Debug\net8.0\refint\VehicleLoan.EFCore.dll
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\obj\Debug\net8.0\VehicleLoan.EFCore.pdb
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\obj\Debug\net8.0\VehicleLoan.EFCore.genruntimeconfig.cache
+D:\Users\Admin\Desktop\Trabalhos\VehicleLoan\VehicleLoan.EFCore\obj\Debug\net8.0\ref\VehicleLoan.EFCore.dll

@@ -30,4 +30,6 @@ app.UseEndpoints(endpoints =>
 
 app.UseHttpsRedirection();
 
+app.UseCors();
+
 app.Run();

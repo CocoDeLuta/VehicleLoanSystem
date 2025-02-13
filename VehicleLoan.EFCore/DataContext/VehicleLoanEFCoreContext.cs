@@ -1,6 +1,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using VehicleLoan.Model.Basic;
+using Microsoft.EntityFrameworkCore.Proxies;
 
 namespace VehicleLoan.EFCore.DataContext;
 

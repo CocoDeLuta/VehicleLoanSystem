@@ -1,7 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <ProjectReference Include="..\VehicleLoan.EFCore\VehicleLoan.EFCore.csproj" />
     <ProjectReference Include="..\VehicleLoan\VehicleLoan.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
   </ItemGroup>
 
   <PropertyGroup>

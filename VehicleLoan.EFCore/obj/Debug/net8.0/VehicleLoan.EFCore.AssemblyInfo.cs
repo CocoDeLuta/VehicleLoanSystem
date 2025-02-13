@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VehicleLoan.EFCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61dfcd03fdf369accca5945d6cde8f23f0eb253c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+743f5e8090b613293fc522923be2a45b47804743")]
 [assembly: System.Reflection.AssemblyProductAttribute("VehicleLoan.EFCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VehicleLoan.EFCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

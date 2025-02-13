@@ -17,6 +17,17 @@
           "VehicleLoan.WebAPI.dll": {}
         }
       },
+      "Castle.Core/5.1.1": {
+        "dependencies": {
+          "System.Diagnostics.EventLog": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.1.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/8.0.10": {
         "dependencies": {
           "Microsoft.OpenApi": "1.6.14"
@@ -62,6 +73,18 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/8.0.10": {},
+      "Microsoft.EntityFrameworkCore.Proxies/8.0.10": {
+        "dependencies": {
+          "Castle.Core": "5.1.1",
+          "Microsoft.EntityFrameworkCore": "8.0.10"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Proxies.dll": {
+            "assemblyVersion": "8.0.10.0",
+            "fileVersion": "8.0.1024.46708"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.10",
@@ -367,10 +390,12 @@
           }
         }
       },
+      "System.Diagnostics.EventLog/6.0.0": {},
       "System.Memory/4.5.3": {},
       "VehicleLoan.EFCore/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.10",
+          "Microsoft.EntityFrameworkCore.Proxies": "8.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10",
           "VehicleLoan.Model": "1.0.0"
         },
@@ -396,6 +421,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Castle.Core/5.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
+      "path": "castle.core/5.1.1",
+      "hashPath": "castle.core.5.1.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/8.0.10": {
       "type": "package",
@@ -431,6 +463,13 @@
       "sha512": "sha512-51KkPIc0EMv/gVXhPIUi6cwJE9Mvh+PLr4Lap4naLcsoGZ0lF2SvOPgUUprwRV3MnN7nyD1XPhT5RJ/p+xFAXw==",
       "path": "microsoft.entityframeworkcore.analyzers/8.0.10",
       "hashPath": "microsoft.entityframeworkcore.analyzers.8.0.10.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Proxies/8.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HJPkmBhy9vjuS6bZ7g0Dj8pOpuB027LM1kE06WEcYfLgHy0V4kNNA/BqfSQGdwI0IQbxj7NSuSTnMYwJtYBgog==",
+      "path": "microsoft.entityframeworkcore.proxies/8.0.10",
+      "hashPath": "microsoft.entityframeworkcore.proxies.8.0.10.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/8.0.10": {
       "type": "package",
@@ -592,6 +631,13 @@
       "sha512": "sha512-lpEszYJ7vZaTTE5Dp8MrsbSHrgDfjhDMjzW1qOA1Xs1Dnj3ZRBJAcPZUTsa5Bva+nLaw91JJ8OI8FkSg8hhIyA==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.8.1",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.8.1.nupkg.sha512"
+    },
+    "System.Diagnostics.EventLog/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lcyUiXTsETK2ALsZrX+nWuHSIQeazhqPphLfaRxzdGaG93+0kELqpgEHtwWOlQe7+jSFnKwaCAgL4kjeZCQJnw==",
+      "path": "system.diagnostics.eventlog/6.0.0",
+      "hashPath": "system.diagnostics.eventlog.6.0.0.nupkg.sha512"
     },
     "System.Memory/4.5.3": {
       "type": "package",

@@ -7,7 +7,7 @@ namespace VehicleLoan.Model.Basic
         public int AddressId { get; set; }
         public string? Street { get; set; }
         public string? Number { get; set; }
-        public CityModel? City { get; set; }
+        public virtual CityModel? City { get; set; }
 
         public AddressModel(int id, string street, string number, CityModel city)
         {
@@ -24,7 +24,7 @@ namespace VehicleLoan.Model.Basic
 
         public override string ToString()
         {
-            return $"[AddressID: {AddressId}, Street: {Street}, Number: {Number}, City: {City}]";
+            return $"[AddressID: {AddressId}, Street: {Street}, Number: {Number}, City: {City.ToString()}]";
         }
 
         public override bool Equals(object obj)

@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "0V2YRbmG/3U=",
+  "dgSpecHash": "y4UEs4LGUCc=",
   "success": true,
   "projectFilePath": "c:\\Users\\mateu\\Documents\\UTF\\6 Periodo\\TDS - Tecnologia em desenvolvimento de Sistemas\\Sistema Aluguel de Veiculos\\VehicleLoan.WebAPI\\VehicleLoan.WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mateu\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.10\\microsoft.aspnetcore.openapi.8.0.10.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.10\\microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.10\\microsoft.entityframeworkcore.8.0.10.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.10\\microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.10\\microsoft.entityframeworkcore.analyzers.8.0.10.nupkg.sha512",
+    "C:\\Users\\mateu\\.nuget\\packages\\microsoft.entityframeworkcore.proxies\\8.0.10\\microsoft.entityframeworkcore.proxies.8.0.10.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.10\\microsoft.entityframeworkcore.relational.8.0.10.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.10\\microsoft.entityframeworkcore.sqlite.8.0.10.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.10\\microsoft.entityframeworkcore.sqlite.core.8.0.10.nupkg.sha512",
@@ -32,6 +34,7 @@
     "C:\\Users\\mateu\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.8.1\\swashbuckle.aspnetcore.swagger.6.8.1.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.8.1\\swashbuckle.aspnetcore.swaggergen.6.8.1.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.8.1\\swashbuckle.aspnetcore.swaggerui.6.8.1.nupkg.sha512",
+    "C:\\Users\\mateu\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []

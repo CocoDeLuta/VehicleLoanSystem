@@ -8,7 +8,7 @@ namespace VehicleLoan.Model.Basic
         public int StateId { get; set; } // Primary Key
         public string? Name { get; set; }
         public string? Initials { get; set; }
-        public CountryModel? Country { get; set; }
+        public virtual CountryModel? Country { get; set; }
  
 
         public StateModel(int id, string name, string initials, CountryModel country)

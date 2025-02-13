@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<VehicleLoanEFCoreContext>(options => options.UseSqlite(
+builder.Services.AddDbContext<VehicleLoanEFCoreContext>(options => options.UseLazyLoadingProxies().UseSqlite(
     builder.Configuration.GetConnectionString("DefaultConnection"))); // This is the connection string from appsettings.json
 
 builder.Services.AddControllers(); // This is required to use the [ApiController] attribute

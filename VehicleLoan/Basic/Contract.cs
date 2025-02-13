@@ -8,8 +8,8 @@ namespace VehicleLoan.Model.Basic
         
 
         public int ContractId { get; set; }
-        public ClientModel? Client { get; set; }
-        public VehicleModel? Vehicle { get; set; }
+        public virtual ClientModel? Client { get; set; }
+        public virtual VehicleModel? Vehicle { get; set; }
         public DateTime? ContractDate { get; set; }
         public double? ContractValue { get; set; }
 

@@ -20,6 +20,16 @@ public class StateController : ControllerBase
     public async Task<IActionResult> GetAll()
     {
         var states = await context.States.ToListAsync();
+        foreach (var state in states)
+        {
+            // first, get the countryId from the database
+            var countryId = state.Country.CountryId;
+            // then, get the country from the database
+            var country = await context.Countries.FindAsync(countryId);
+            // finally, set the country of the state
+            state.Country = country;
+            
+        }
         return Ok(states);
     }
 
@@ -40,6 +50,10 @@ public class StateController : ControllerBase
             return BadRequest("Country not found");
         }
         state.Country = country;
+        if(state.Country == null)
+        {
+            return BadRequest("Country not found");
+        }
         await context.States.AddAsync(state);
         await context.SaveChangesAsync();
         return Created("", state);

@@ -9,7 +9,7 @@ namespace VehicleLoan.Model.Basic
         public string? Name { get; set; }
         public string? Cpf { get; set; }
         public string? Phone { get; set; }
-        public AddressModel? Address { get; set; }
+        public virtual AddressModel? Address { get; set; }
 
         public ClientModel(int id, string name, string cpf, string phone, AddressModel address)
         {

@@ -6,7 +6,7 @@ namespace VehicleLoan.Model.Basic
     {
         public int CityId { get; set; }
         public string? Name { get; set; }
-        public StateModel? State { get; set; }
+        public virtual StateModel? State { get; set; }
 
         public CityModel(int id, string name, StateModel state)
         {

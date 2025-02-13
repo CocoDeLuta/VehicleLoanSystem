@@ -1,32 +1,39 @@
-﻿using VehicleLoan.Model.Basic;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using VehicleLoan.EFCore.DataContext;
+using VehicleLoan.Model.Basic;
 
-Console.Clear();
-Console.WriteLine("Hello, World!");
 
-VehicleModel vehicle = new VehicleModel(1, "Toyota", 2020);
-VehicleModel vehicle1 = new VehicleModel(1, "Toyota", 2020);
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Configure services
+        var serviceCollection = new ServiceCollection();
+        ConfigureServices(serviceCollection);
 
-Console.WriteLine(vehicle.Equals(vehicle1)); // False
-Console.WriteLine(vehicle); 
-Console.WriteLine("====================================");
+        // Build the service provider
+        var serviceProvider = serviceCollection.BuildServiceProvider();
 
-State state = new State(1, "São Paulo", "SP");
-City city = new City(1, "São Paulo", state);
-Address address = new Address(1, "Rua 1", "123", city);
+        // Use the service provider to get the DbContext
+        using (var context = serviceProvider.GetRequiredService<VehicleLoanEFCoreContext>())
+        {
+            // Your code to interact with the database goes here
+            Console.WriteLine("Hello, World!");
 
-Console.WriteLine(address);
-Console.WriteLine("====================================");
+            // Example: List all vehicles
+            var addresses = context.Addresses.ToList();
+            foreach (var address in addresses)
+            {
+                Console.WriteLine(address.ToString());
+            }
+        }
+    }
 
-ClientModel client = new ClientModel(1, "João", "123456789", "1234", address);
-ClientModel client1 = new ClientModel(1, "João", "123456789", "1234", address);
-
-Console.WriteLine(client.Equals(client1)); // True
-Console.WriteLine(client);
-Console.WriteLine("====================================");
-
-ContractModel contract = new ContractModel(1, client, vehicle, DateTime.Now, 1000);
-ContractModel contract1 = new ContractModel(1, client, vehicle, DateTime.Now, 1000);
-
-Console.WriteLine(contract.Equals(contract1)); // True
-Console.WriteLine(contract);
-Console.WriteLine("====================================");
+    private static void ConfigureServices(IServiceCollection services)
+    {
+        // Add DbContext with SQLite provider
+        services.AddDbContext<VehicleLoanEFCoreContext>(options =>
+            options.UseSqlite("Data Source=../VehicleLoan.EFCore/VehicleLoan.db"));
+    }
+}

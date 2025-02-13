@@ -71,3 +71,5 @@ c:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Si
 c:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.WebAPI\obj\Debug\net8.0\VehicleLoan.WebAPI.pdb
 c:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.WebAPI\obj\Debug\net8.0\VehicleLoan.WebAPI.genruntimeconfig.cache
 c:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.WebAPI\obj\Debug\net8.0\ref\VehicleLoan.WebAPI.dll
+c:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.WebAPI\bin\Debug\net8.0\Castle.Core.dll
+c:\Users\mateu\Documents\UTF\6 Periodo\TDS - Tecnologia em desenvolvimento de Sistemas\Sistema Aluguel de Veiculos\VehicleLoan.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll

@@ -2,17 +2,22 @@ using System;
 
 namespace VehicleLoan.Model.Basic
 {
-    public class City
+    public class CityModel
     {
         public int CityId { get; set; }
-        public string Name { get; set; }
-        public State State { get; set; }
+        public string? Name { get; set; }
+        public StateModel? State { get; set; }
 
-        public City(int id, string name, State state)
+        public CityModel(int id, string name, StateModel state)
         {
             CityId = id;
             Name = name;
             State = state;
+        }
+
+        public CityModel()
+        {
+            
         }
 
         public override string ToString()
@@ -22,7 +27,7 @@ namespace VehicleLoan.Model.Basic
 
         public override bool Equals(object obj)
         {
-            if (obj is City other)
+            if (obj is CityModel other)
             {
                 return other.CityId == CityId;
             }

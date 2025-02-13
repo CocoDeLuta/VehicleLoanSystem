@@ -14,22 +14,22 @@ public class VehicleController : ControllerBase
         this.context = context;
     }
 
-    [HttpGet]
-    public async Task<IActionResult> GetAllVehicles()
+    [HttpGet("GetAll")]
+    public async Task<IActionResult> GetAll()
     {
         var vehicles = await context.Vehicles.ToListAsync();
         return Ok(vehicles);
     }
 
     [HttpGet("GetByID")]
-    public async Task<IActionResult> GetVehicleByID(int id)
+    public async Task<IActionResult> GetByID(int id)
     {
         // find async is used to search by primary key
         var vehicle = await context.Vehicles.FindAsync(id);
         return Ok(vehicle);
     }
 
-    [HttpPost]
+    [HttpPost("AddVehicle")]
     public async Task<IActionResult> AddVehicle(VehicleModel vehicle)
     {
         await context.Vehicles.AddAsync(vehicle);
@@ -37,15 +37,20 @@ public class VehicleController : ControllerBase
         return Created("", vehicle);
     }
 
-    [HttpPut]
-    public async Task<IActionResult> UpdateVehicle(VehicleModel vehicle)
+    [HttpPut("UpdateVehicleByID")]
+    public async Task<IActionResult> UpdateVehicle(int id)
     {
+        var vehicle = await context.Vehicles.FindAsync(id);
+        if (vehicle == null)
+        {
+            return BadRequest("Vehicle not found");
+        }
         context.Vehicles.Update(vehicle);
         await context.SaveChangesAsync();
         return Ok(vehicle);
     }
 
-    [HttpDelete]
+    [HttpDelete("DeleteVehicleByID")]
     public async Task<IActionResult> DeleteVehicleByID(int id)
     {
         var vehicleToDelete = await context.Vehicles.FindAsync(id);

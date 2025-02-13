@@ -7,31 +7,36 @@ namespace VehicleLoan.Model.Basic
 
         
 
-        public int? ContractID { get; set; }
+        public int ContractId { get; set; }
         public ClientModel? Client { get; set; }
         public VehicleModel? Vehicle { get; set; }
         public DateTime? ContractDate { get; set; }
         public double? ContractValue { get; set; }
 
-        public ContractModel(int id, ClientModel cliente, VehicleModel vehicle, DateTime dataContrato, double valorParcela)
+        public ContractModel(int id, ClientModel client, VehicleModel vehicle, DateTime contDate, double plotValue)
         {
-            ContractID = id;
-            Client = cliente;
+            ContractId = id;
+            Client = client;
             Vehicle = vehicle;
-            ContractDate = dataContrato;
-            ContractValue = valorParcela;
+            ContractDate = contDate;
+            ContractValue = plotValue;
+        }
+
+        public ContractModel()
+        {
+            
         }
 
         public override string ToString()
         {
-            return $"[ContractID: {ContractID}, Client: {Client}, Vehicle: {Vehicle}, ContractDate: {ContractDate}, ContractValue: {ContractValue}]";
+            return $"[ContractID: {ContractId}, Client: {Client}, Vehicle: {Vehicle}, ContractDate: {ContractDate}, ContractValue: {ContractValue}]";
         }
 
         public override bool Equals(object? obj)
         {
             if (obj is ContractModel other)
             {
-                return other.ContractID == ContractID;
+                return other.ContractId == ContractId;
             }
             return false;
         }

@@ -5,32 +5,37 @@ namespace VehicleLoan.Model.Basic
     public class ClientModel
     {
 
-        public int ClientID { get; set; }
+        public int ClientId { get; set; }
         public string? Name { get; set; }
         public string? Cpf { get; set; }
-        public string? Telefone { get; set; }
-        public Address? Address { get; set; }
+        public string? Phone { get; set; }
+        public AddressModel? Address { get; set; }
 
-        public ClientModel(int id, string nome, string cpf, string telefone, Address endereco)
+        public ClientModel(int id, string name, string cpf, string phone, AddressModel address)
         {
-            ClientID = id;
-            Name = nome;
+            ClientId = id;
+            Name = name;
             Cpf = cpf;
-            Telefone = telefone;
-            Address = endereco;
+            Phone = phone;
+            Address = address;
+        }
+
+        public ClientModel()
+        {
+            
         }
         
 
         public override string ToString()
         {
-            return $"[ClientID: {ClientID}, Name: {Name}, Cpf: {Cpf}, Telefone: {Telefone}, Address: {Address}]";
+            return $"[ClientID: {ClientId}, Name: {Name}, Cpf: {Cpf}, Telefone: {Phone}, Address: {Address}]";
         }
 
         public override bool Equals(object? obj)
         {
             if (obj is ClientModel other)
             {
-                return other.ClientID == ClientID;
+                return other.ClientId == ClientId;
             }
             return false;
         }
